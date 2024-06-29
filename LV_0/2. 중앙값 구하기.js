@@ -5,9 +5,18 @@
 */
 
 function solution(array) {
+<<<<<<< HEAD
   array.sort((a, b) => a - b);
   console.log(array[Math.floor(array.length / 2)]);
   return array[Math.floor(array.length / 2)];
 }
 
 solution([-1, -3, -2, -4, -5]);
+=======
+    array.sort((a,b) => a-b);
+    console.log(array[Math.floor(array.length / 2)]);
+    return array[Math.floor(array.length / 2)]
+}
+
+solution([-1,-3,-2,-4,-5])
+>>>>>>> a15a9b0 (2024-06-10)
